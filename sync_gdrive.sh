@@ -7,7 +7,7 @@ set -e
 MAPPINGS="audio:audio reels/yourpastsoul:reels"
 
 echo "🔐 Setting up Path-Specific Smart Sync..."
-
+ 
 # 1. Prepare Rclone & Auth
 sudo apt-get install rclone -y --quiet
 mkdir -p ~/.config/rclone
